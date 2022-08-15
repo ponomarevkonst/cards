@@ -17,7 +17,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 				path: '/',
 				httpOnly: true,
 				sameSite: 'none',
-				secure: true				
+				secure: true
 			})
 		);
 	}
